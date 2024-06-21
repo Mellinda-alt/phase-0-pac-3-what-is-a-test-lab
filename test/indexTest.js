@@ -5,12 +5,12 @@ const { name, height, message } = require("../index.js");
 describe("what-is-a-test", () => {
   describe("Name", () => {
     it('returns "Susan"', () => {
-      expect(name).toEqual("Susan");
+      expect(name).toEqual("Joe");
     });
   });
 
   describe("Height", () => {
-    it("is less than 40 and greater than 0", () => {
+    it("is less than 74 and greater than 40", () => {
       expect(height).toBeMoreThan(0)
       expect(height).toBeLessThan(40);
     });
